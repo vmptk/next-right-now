@@ -10,7 +10,7 @@ git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-gem "jekyll", "~> 3.8.6"
+gem "github-pages", group: :jekyll_plugins
 gem 'just-the-docs', '0.2.7'
 
 # ------- WINDOWS SUPPORT ---------
